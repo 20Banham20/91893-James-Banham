@@ -1,0 +1,28 @@
+.nav_button{
+    display: flex;
+    justify-content: left;
+    padding: 15px;
+    margin: 15px;
+    text-decoration: underline;
+    background-color: #14342B;
+    border-radius: 10%;
+    width: 80px;
+}
+nav{
+    padding: 60px;
+    background-color:#b7b7b7;
+    text-align: center;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    width: 500px;
+}
+body{
+    width: 1500px;
+    margin: auto 0;
+}
+a{
+    color: white;
+}
