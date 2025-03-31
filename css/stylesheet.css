@@ -1,13 +1,12 @@
 .nav_button{
+    margin: 15px;
     height: 25px;
     padding: 15px;
-    margin: 15px;
-    margin-left: 0px;
     text-decoration: underline;
     background-color: #14342B;
     border-radius: 10%;
-    width: 80px
-    
+    width: 80px;
+    margin-left: 500px;
 }
 nav{
     padding: 40px;
@@ -15,12 +14,10 @@ nav{
     text-align: center;
     display: flex;
 }
-
 #logo{
-    display: flex;
-    justify-content: center;
     width: 500px;
 }
+
 body{
     width: 1500px;
     margin: 0 auto;
@@ -30,7 +27,6 @@ a{
 }
 .right_button{
     padding: 15px;
-    margin-right: 200px;
     margin-top: 15px;
     text-decoration: underline;
     background-color: #14342B;
@@ -38,4 +34,29 @@ a{
     width: 80px;
     height: 25px;
 
+}
+footer{
+    padding: 7px;
+    background-color:grey;
+    text-align: right;
+}
+
+.main_imgs{
+    display: flex;
+    justify-content: center;
+}
+#breakfast{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#lunch{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+#dinner{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
 }
