@@ -34,7 +34,7 @@ a{
 }
 footer{
     padding: 7px;
-    background-color:grey;
+    background-color:#DEDEDE;
     text-align: right;
 }
 
@@ -53,5 +53,5 @@ main{
     padding: 20px;
     background-color:#14342B ;
     width: 770px;
-    margin: 50px 365px 365px 50px;
+    margin: 50px 365px 50px 365px ;
 }
