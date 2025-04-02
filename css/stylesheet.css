@@ -54,6 +54,9 @@ footer{
 }
 /*the text box is centered with a dark green and white contrast for readability*/
 main{
+
+}
+#about_us{
     text-align: center;
     color: white;
     padding: 20px;
