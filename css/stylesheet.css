@@ -16,6 +16,7 @@ nav{
     background-color:#b7b7b7;
     display: flex;
     align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .buttons {
@@ -54,6 +55,7 @@ footer{
     padding: 7px;
     background-color:#DEDEDE;
     text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 /*The imgs are in the center*/
 .main_imgs{
@@ -79,12 +81,15 @@ main{
     color: white;
     padding: 20px;
     background-color:#14342B ;
-    width: 770px;
-    margin: 50px 365px 50px 365px;
+    margin: 50px 350px 50px 350px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius:20px ;
 }
 
 img {
     border-radius: 20px;
+}
+.recipe{
+    margin: 25px;
+    display: flex;
 }
