@@ -16,7 +16,6 @@ nav{
     background-color:#b7b7b7;
     display: flex;
     align-items: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 .buttons {
@@ -32,6 +31,7 @@ nav{
 body{
     width: 1500px;
     margin: 0 auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 /*I made the color white for readability*/
 a{
@@ -55,13 +55,11 @@ footer{
     padding: 7px;
     background-color:#DEDEDE;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 /*The imgs are in the center*/
 .main_imgs{
     display: flex;
     justify-content: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 /*The imgs have spacing inbetween*/
 }
 .food_imgs{
@@ -82,7 +80,6 @@ main{
     padding: 20px;
     background-color:#14342B ;
     margin: 50px 350px 50px 350px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     border-radius:20px ;
 }
 
@@ -90,6 +87,16 @@ img {
     border-radius: 20px;
 }
 .recipe{
-    margin: 25px;
+    margin: 25px 100px 25px 100px;
+    display: column;
+}
+.row_1{
     display: flex;
 }
+.row_2{
+    display: flex;
+}
+h1{
+    text-align: center;
+}
+
