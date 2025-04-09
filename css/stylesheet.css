@@ -36,6 +36,7 @@ body{
 /*I made the color white for readability*/
 a{
     color: white;
+    text-decoration: none;
 }
 /*The styling creates rectanglar nav button thats green*/
 .right_button a{
@@ -67,13 +68,7 @@ footer{
     margin: 10px;
     text-align: center;
 }
-
-
-
 /*the text box is centered with a dark green and white contrast for readability*/
-main{
-
-}
 #about_us{
     text-align: center;
     color: white;
@@ -89,33 +84,10 @@ img {
 h1{
     text-align: center;
 }
-/*
-.row_1{
-    display: flex;
-    text-align: center;
-}
-.row_2{
-    display: flex;
-    text-align: center;
-}
-
-
-.see_more{
-    margin: 20px;
-    padding: 25px;
-    background-color: #14342B;
-    border-radius: 20px;
-}
-
-.recipe{
-    margin: 20px 110px 20px 110px;
-    display: column;
-}
-*/
-
 
 /* Row layout ensuring consistent heights */
 
+/* Flex layout for rows, allowing items to wrap and space evenly */
 .row_1, .row_2 {
     display: flex;
     flex-wrap: wrap;
@@ -124,17 +96,25 @@ h1{
     text-align: center;
 }
 
+/* Recipe card style: each takes up one-third of the row */
 .recipe {
-    width: calc(33.333% - 20px); /* Adjust width for 3 items per row */
+    width: calc(33.333% - 20px); /* Adjust for spacing between items */
     box-sizing: border-box;
     margin-bottom: 20px;
 }
 
+/* "See more" button styling */
 .see_more {
     margin: 20px;
-    padding: 15px 25px 15px 25px;
+    padding: 15px 25px;
     background-color: #14342B;
     border-radius: 20px;
     text-align: center;
     display: inline-block;
+}
+
+/* Hover effect for "See more" button */
+.see_more:hover {
+    transform: scale(1.1); /* Slightly enlarge on hover */
+    transition: 0.5s; /* Smooth transition */
 }
