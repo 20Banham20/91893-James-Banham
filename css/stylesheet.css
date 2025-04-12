@@ -1,7 +1,7 @@
 /*The styling creates rectanglar nav button thats green*/
 .left_button a{
     margin: 15px;
-    padding: 25px;
+    padding: 30px;
     background-color: #14342B;
     border-radius: 12%;
 }
@@ -39,7 +39,7 @@ a{
 }
 /*The styling creates rectanglar nav button thats green*/
 .right_button a{
-    padding: 25px;
+    padding: 30px;
     background-color: #14342B;
     border-radius: 12%;
     text-decoration: none;
@@ -125,8 +125,8 @@ h1{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    gap: 40px;
-    padding: 40px 100px;
+    
+    margin-top: 40px;
 }
 
 .recipe_pages img.recipe-image {
