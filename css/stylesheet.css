@@ -15,6 +15,7 @@ nav{
     background-color:#b7b7b7;
     display: flex;
     align-items: center;
+    font-size: 18px;
 }
 
 .buttons {
@@ -55,6 +56,7 @@ footer{
     padding: 7px;
     background-color:#DEDEDE;
     text-align: center;
+    font-size: 18px;
 }
 /*The imgs are in the center*/
 .main_imgs{
@@ -125,7 +127,6 @@ h1{
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    
     margin-top: 40px;
 }
 
@@ -158,5 +159,5 @@ h1{
     width:1200px;
     margin-left: 150px;
     margin-bottom: 50px;
-    font-size: x-large;
+    font-size: 28px;
 }
