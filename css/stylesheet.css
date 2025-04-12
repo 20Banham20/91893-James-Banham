@@ -121,17 +121,42 @@ h1{
     margin: 40px 100px 0px 100px;
     display: flex;
 }
-P{
-    margin-left: 10px;
-}
-.descri{
-    font-size: x-large;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    align-items: center;
-    margin-right: 50px;
-}
-
 .top-part-of-recipe {
     display: flex;
-    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    padding: 40px 100px;
+}
+
+.recipe_pages img.recipe-image {
+    width: 600px;
+    height: auto;
+    border-radius: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.descri {
+    max-width: 600px;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.descri h2 {
+    margin-top: 0;
+    color: #14342B;
+}
+
+.descri ul {
+    padding-left: 20px;
+}
+
+.descri li {
+    margin-bottom: 8px;
+}
+.bottem-part-of-recipe{
+    width:1200px;
+    margin-left: 150px;
+    margin-bottom: 50px;
+    font-size: x-large;
 }
