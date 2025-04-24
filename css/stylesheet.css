@@ -1,7 +1,7 @@
 /*The styling creates rectanglar nav button thats green*/
 .left_button a{
     margin: 15px;
-    padding: 30px;
+    padding: 35px;
     background-color: #14342B;
     border-radius: 12%;
 }
@@ -40,7 +40,7 @@ a{
 }
 /*The styling creates rectanglar nav button thats green*/
 .right_button a{
-    padding: 30px;
+    padding: 35px;
     background-color: #14342B;
     border-radius: 12%;
     text-decoration: none;
@@ -159,5 +159,5 @@ h1{
     width:1200px;
     margin-left: 150px;
     margin-bottom: 50px;
-    font-size: 28px;
+    font-size: 24px;
 }
