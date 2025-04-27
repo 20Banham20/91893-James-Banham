@@ -123,38 +123,40 @@ h1{
     margin: 40px 100px 0px 100px;
     display: flex;
 }
+/* Styling for the top section of the recipe (e.g., title, image, etc.) */
 .top-part-of-recipe {
     display: flex;
     justify-content: center;
     align-items: flex-start;
     margin-top: 40px;
 }
-
+/* Styling for the recipe image */
 .recipe_pages img.recipe-image {
     width: 600px;
     height: auto;
     border-radius: 20px;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
+/* Styling for the description section of the recipe */
 .descri {
     max-width: 600px;
     font-size: 18px;
     line-height: 1.6;
 }
-
+/* Styling for headings inside the description */
 .descri h2 {
     margin-top: 0;
     color: #14342B;
 }
-
+/* Styling for unordered lists in the description */
 .descri ul {
     padding-left: 20px;
 }
-
+/* Styling for list items inside the description */
 .descri li {
     margin-bottom: 8px;
 }
+/* Styling for the bottom part of the recipe (e.g., instructions or additional content) */
 .bottem-part-of-recipe{
     width:1200px;
     margin-left: 150px;
